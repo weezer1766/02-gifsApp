@@ -1,0 +1,19 @@
+<h5>Buscar:</h5>
+<!--PRIMERA FORMA: OBTENER VALOR DEL INPUT CON EL MISMO EVENT-->
+<!--<input type="text" name="buscar" id="buscar" (keyup.enter)="buscar($event)" class="form-control" placeholder="Buscar gifs...">-->
+
+<!--SEGUNDA FORMA: OBTENER VALOR DEL INPUT CON UNA VARIABLE LOCAL DEL TEMPLATE-->
+<!--<input type="text" name="buscar" id="buscar" #txtBuscar (keyup.enter)="buscar(txtBuscar.value)" class="form-control" placeholder="Buscar gifs...">-->
+
+<!--TERCERA FORMA: OBTENER VALOR USANDO @ViewChild-->
+<input type="text" name="buscar" id="buscar" #txtBuscar (keyup.enter)="buscar()" class="form-control" placeholder="Buscar gifs...">
+
+<!--EJEMPLO OBTENER VALOR DE UN COMBO CON @ViewChild-->
+<!--
+<select class="form-control" name="subRegionSeleccionada" style="width:500px;" #cboSeleccionar (change)="seleccionarItem()">
+  <option value="0">Seleccionar una subregión...</option>
+  <option value="1">PHP</option>
+  <option value="2">ANGULAR</option>
+  <option value="3">C#</option>
+</select>
+-->

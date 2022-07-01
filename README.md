@@ -1,3 +1,9 @@
+## SERVICIO Rest
+Utiliza el siguiente api rest para trabajar con los gifs.
+(https://developers.giphy.com/dashboard/?)
+
+El api key generado es el siguiente: rNZDkOtDwnjQwyxfJMGcLik5VHUBMGIr
+
 # 02GifsApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.6.
